@@ -33,10 +33,10 @@ this [link](https://play.google.com/store/apps/details?id=de.kai_morich.serial_b
 ### Step Two: Pairing the microbit
 * Flash the Tracker.hex onto your microbit to help you pair your device.
 * Open the app on your phone & head to devices, hit scan if you don't see the Microbit
-* If you're still unable to see your device press A + B buttons on your Microbit 
+* If you're still unable to see your device press A + B buttons on your Microbit\ 
 and then press and release the reset button to put your Microbit in pairing mode
-* Once you find the Microbit, click on it to connect (if you still get an error, go
-back to devices and long press the Microbit and click edit. Select custom settings
+* Once you find the Microbit, click on it to connect (if you still get an error, go\
+back to devices and long press the Microbit and click edit. Select custom settings\
 and press on UUID, read and write to automatically pick up the suggested values)
 * You should then be able to click the plug icon on the terminal and connect
 
@@ -69,7 +69,7 @@ in this repo. If you wish to build your own hex, you may use the following metho
 
 # Micro:Bit Handling
 When you start using the Microbit, it will flash 'hello' and an arrow will point\
-towards the next button you need to press. The arrow will point first at A, then B.
+towards the next button you need to press. The arrow will point first at A, then B.\
 Button A: Press to start the tracking process. (This will be used by the shipper).
 Button B: Press to end the tracking process. (This will be used by the customer).
 
