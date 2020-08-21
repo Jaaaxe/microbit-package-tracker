@@ -1,4 +1,4 @@
-# IoT Challenge 2
+# IoT Challenge III
 Implement bluetooth communication between a BBC Micro:bit device and a phone
 
 **Author**: Mariyam Yasmeen (S1800367) & Ismath Ibrahim (S1900094)\
