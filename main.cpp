@@ -5,7 +5,7 @@
 // it was dropped during shipment
 // Authors: Mariyam Yasmeen (S1800367) & Ismath Ibrahim (S1900094)
 // Version: 1.3.0
-// Modified: 21 August 2020
+// Modified: 22 August 2020
 // Requirements: Microbit, Smart phone with android OS
 // Setup: Specified in README.md
 
