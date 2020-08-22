@@ -42,6 +42,7 @@ and press on UUID, read and write to automatically pick up the suggested values)
 
 How to configure the manual settings if predefine settings don’t work  
 <img src="Screens/Predefine-Error.jpeg" width="400px"/>
+
 You can press Service, read and write UUID fields to get the values auto-generated
 
 ## How to use the tracker
