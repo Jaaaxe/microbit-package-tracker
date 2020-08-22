@@ -40,6 +40,8 @@ back to devices and long press the Microbit and click edit. Select custom settin
 and press on UUID, read and write to automatically pick up the suggested values)
 * You should then be able to click the plug icon on the terminal and connect
 
+How to complete the manual setup if predefine settings don’t work  
+![](Screens/Predefine-Error.jpeg)
 
 ## How to use the tracker
 
@@ -88,6 +90,13 @@ Additionally, the Microbit display will also show the time as xxh xxm and then\
 scroll "safe" or "compromised" to show the status. The log can then be exported\
 from the app if a complaint needs to be filed or in order to leave reviews with\
 proof for fast and safe deliveries.
+
+## Screenshots
+Tracked package that was not dropped  
+![](Screens/Safe.jpeg)
+
+Tracked package that was dropped  
+![](Screens/Compromised.jpeg)
 
 ## Warnings
 Make sure that the bluetooth on your device is switched on and that you're using\
