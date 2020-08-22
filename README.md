@@ -40,8 +40,9 @@ back to devices and long press the Microbit and click edit. Select custom settin
 and press on UUID, read and write to automatically pick up the suggested values)
 * You should then be able to click the plug icon on the terminal and connect
 
-How to complete the manual setup if predefine settings don’t work  
-![](Screens/Predefine-Error.jpeg)
+How to configure the manual settings if predefine settings don’t work  
+<img src="Screens/Predefine-Error.jpeg" width="400px"/>
+You can press Service, read and write UUID fields to get the values auto-generated
 
 ## How to use the tracker
 
@@ -93,10 +94,10 @@ proof for fast and safe deliveries.
 
 ## Screenshots
 Tracked package that was not dropped  
-![](Screens/Safe.jpeg)
+<img src="Screens/Safe.jpeg" width="400px"/>
 
 Tracked package that was dropped  
-![](Screens/Compromised.jpeg)
+<img src="Screens/Compromised.jpeg" width="400px"/>
 
 ## Warnings
 Make sure that the bluetooth on your device is switched on and that you're using\
