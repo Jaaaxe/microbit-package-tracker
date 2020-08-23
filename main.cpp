@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // UFCFVK-15-2 Internet of Things
 // Challenge III
 // Description: Demostrating the bluetooth capabilities of the microbit
@@ -319,5 +318,4 @@ int main()
             uBit.sleep(100);
         }
     }
->>>>>>> a702a01edcb609c29108636bf073e3a12d09b909
 }
