@@ -69,7 +69,7 @@ Mbed has an [online compiler](https://ide.mbed.com/compiler/) which makes it eas
 ### Building from source (Offline)
 1. Install the Yotta build system with the instructions found [here](http://docs.yottabuild.org/#installing).
 2. Hit clone on this repo so you get a copy
-3. Open the folder in the terminal and run the command `yotta build` in the folder.
+3. Open the folder in the terminal and run the command "yotta build" in the folder.
 4. Flash the {name}-combined.hex file onto your Microbit.
 5. Start using the tracker!
 You can find more information on yotta builds at this [link](http://docs.yottabuild.org/tutorial/building.html).
@@ -135,4 +135,3 @@ Microbit from the app and retry.
 mariyam2.yasmeen@live.uwe.ac.uk or ismath2.ibrahim@live.uwe.ac.uk
 
 # Have Fun!
-
