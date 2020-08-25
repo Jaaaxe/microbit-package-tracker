@@ -20,16 +20,17 @@ back if certain terms are not met. This device can also be used when shipping\
 fragile items, since any drops during shipment is also logged by the device\
 and sent as a report to the receiver of the package.
 
-## What do you need?
-* One Microbit & battery pack
+## Before we begin, lets get our gear ready
+* One Microbit & battery pack (external power source makes it easier to test drops)
 * One smartphone that runs Android OS
-* Type Micro-B USB cable
+* Type Micro-B USB cable to transfer the hex
 
 # The Setup
+
 ### Step One: Download the App
 Since the system depends on being able to send messages via bluetooth to a\
-terminal, the phone must have the required app which can be downloaded from\
-this [link](https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal)
+terminal, the phone must have bluetooth switched on and the required app installed.\
+You can downloaded the app from this [link](https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal)
 ### Step Two: Pairing the microbit
 * Flash the Tracker.hex onto your microbit to help you pair your device.
 * Open the app on your phone & head to devices, hit scan if you don't see the Microbit
@@ -53,23 +54,25 @@ in this repo. If you wish to build your own hex, you may use the following metho
 
 ### Building from source (Online)
 
-1. Create an mbedOS account at [ide.mbed.com](ide.mbed.com).
-2. Open up the mbedOS compiler and create a new empty program.
-3. Head to import and search for "Microbit".
-4. Import the library that has the tags: dal, lancaster, Microbit.
-5. Create a new file called main.cpp.
-6. Copy + paste the code in main.cpp that's located in this repo
-7. Click Compile to get a *.hex file.
-8. Connect your Microbit and transfer the downloaded hex into it.
+Mbed has an [online compiler](https://ide.mbed.com/compiler/) which makes it easy for you to build your project.
+
+1. First you need to get an [mbed](ide.mbed.com) account.
+2. Once you're logged in, open the compiler and create a new empty program.
+3. Click import from the toolbar and search for "Microbit".
+4. Import the lancaster DAL library.
+5. Create your project's main.cpp file.
+6. Take the code in main.cpp that's located in this repo and copy it into your main.
+7. You can now hit the Compile button which will auto download a *.hex file.
+8. Plug your Microbit and flash the hex file into it.
 9. Start using the tracker!  
 
 ### Building from source (Offline)
 1. Install the Yotta build system with the instructions found [here](http://docs.yottabuild.org/#installing).
-2. Clone this repository.
+2. Hit clone on this repo so you get a copy
 3. Open the folder in the terminal and run the command `yotta build` in the folder.
-4. Build file should be generated at "\build\bbc-microbit-classic-gcc\Source" within the folder.
-5. Copy the {project name}-combined.hex file to the Microbit.
-6. Start using the tracker!  
+4. Flash the {name}-combined.hex file onto your Microbit.
+5. Start using the tracker!
+You can find more information on yotta builds at this [link](http://docs.yottabuild.org/tutorial/building.html).
 
 # Micro:Bit Handling
 When you start using the Microbit, it will flash 'hello' and an arrow will point\
@@ -103,7 +106,7 @@ Tracked package that was dropped
 ## Warnings
 Make sure that the bluetooth on your device is switched on and that you're using\
 an Android device. For the time being, there is no app that functions similiarly\
-for iOS devices.
+for iOS devices that can detect and connect to Microbits.
 
 # FAQ
 If you are unable to use the tracker, try one of the following fixes:
@@ -112,21 +115,23 @@ If you are unable to use the tracker, try one of the following fixes:
 Plug your microbit into your computer so that it appears as a USB device.\
 Download the tracker.hex file in this repo and drag and drop onto the device.
 
-### Microbit is not detected on your computer
-Try using a different micro USB cable or connect it to a different computer.
+### Why won't my Microbit show on the computer?
+Check if the USB cable trasnfers data since some will only provide power. If that\
+doesn't work, try to connect it to a different computer.
 
-### Microbit won't power on
-Check to see if your micro USB cable works or if the batteries in the external\
-power pack need to be replaced.
+### Why won't my Microbit switch on?
+If your Microbit is powered on using a cable try to see if it's properly connected.\
+If it is then try a different cable. If you are connected to a battery pack try\
+replacing the batteries.
 
-### The app won't connect to my microbit
+### Why won't the app connect to my microbit?
 Occasionally, Microbit's have a malfunctioning UART that is not able to send the\
 proper signals and therefore, even if you follow the steps, you may not be able to\
 connect. Try using a different Microbit and if the problem persists remove the\
 Microbit from the app and retry.
 
-### I have another issue 
-Please mail your enquiries to mariyam2.yasmeen@live.uwe.ac.uk or ismath2.ibrahim@live.uwe.ac.uk
+###If you have any enquiries, find a bug or just want to say hello mail us at\
+###mariyam2.yasmeen@live.uwe.ac.uk or ismath2.ibrahim@live.uwe.ac.uk
 
 # Have Fun!
 
