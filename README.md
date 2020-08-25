@@ -130,8 +130,8 @@ proper signals and therefore, even if you follow the steps, you may not be able 
 connect. Try using a different Microbit and if the problem persists remove the\
 Microbit from the app and retry.
 
-###If you have any enquiries, find a bug or just want to say hello mail us at\
-###mariyam2.yasmeen@live.uwe.ac.uk or ismath2.ibrahim@live.uwe.ac.uk
+### If you have any enquiries, find a bug or just want to say hello mail us at\
+### mariyam2.yasmeen@live.uwe.ac.uk or ismath2.ibrahim@live.uwe.ac.uk
 
 # Have Fun!
 
